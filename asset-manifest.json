@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/front_end_predictive_maintenance/static/css/main.d0bec5a7.css",
-    "main.js": "/front_end_predictive_maintenance/static/js/main.6a27f04f.js",
+    "main.js": "/front_end_predictive_maintenance/static/js/main.2d407605.js",
     "static/js/453.a4c4aa0d.chunk.js": "/front_end_predictive_maintenance/static/js/453.a4c4aa0d.chunk.js",
     "static/media/Thai_Summit_Group_Logo.svg.png": "/front_end_predictive_maintenance/static/media/Thai_Summit_Group_Logo.svg.666a4b4a49fc32cde454.png",
     "index.html": "/front_end_predictive_maintenance/index.html",
     "main.d0bec5a7.css.map": "/front_end_predictive_maintenance/static/css/main.d0bec5a7.css.map",
-    "main.6a27f04f.js.map": "/front_end_predictive_maintenance/static/js/main.6a27f04f.js.map",
+    "main.2d407605.js.map": "/front_end_predictive_maintenance/static/js/main.2d407605.js.map",
     "453.a4c4aa0d.chunk.js.map": "/front_end_predictive_maintenance/static/js/453.a4c4aa0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0bec5a7.css",
-    "static/js/main.6a27f04f.js"
+    "static/js/main.2d407605.js"
   ]
 }
