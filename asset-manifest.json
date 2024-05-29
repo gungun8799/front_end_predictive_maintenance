@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/your-repository-name/static/css/main.d0bec5a7.css",
+    "main.js": "/your-repository-name/static/js/main.d40893c4.js",
+    "static/js/453.a4c4aa0d.chunk.js": "/your-repository-name/static/js/453.a4c4aa0d.chunk.js",
+    "static/media/Thai_Summit_Group_Logo.svg.png": "/your-repository-name/static/media/Thai_Summit_Group_Logo.svg.666a4b4a49fc32cde454.png",
+    "index.html": "/your-repository-name/index.html",
+    "main.d0bec5a7.css.map": "/your-repository-name/static/css/main.d0bec5a7.css.map",
+    "main.d40893c4.js.map": "/your-repository-name/static/js/main.d40893c4.js.map",
+    "453.a4c4aa0d.chunk.js.map": "/your-repository-name/static/js/453.a4c4aa0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0bec5a7.css",
+    "static/js/main.d40893c4.js"
+  ]
+}
