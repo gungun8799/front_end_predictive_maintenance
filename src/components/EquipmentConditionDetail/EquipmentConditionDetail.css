@@ -1,0 +1,134 @@
+.equipment-condition-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container-ECD {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  padding-right: 15px; /* Optional: Adjust the padding as needed */
+}
+
+.filter-bar-ECD {
+  background: rgb(220, 220, 220);
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-bar-ECD h4 {
+  margin-bottom: 10px;
+}
+
+.filter-bar-ECD button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 0; /* Make buttons the same size */
+  width: 100%; /* Ensure buttons take full width */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center; /* Center text */
+}
+
+.filter-bar-ECD button:hover {
+  background-color: #0056b3;
+}
+
+.filter-bar-ECD button.selected {
+  background-color: #0056b3; /* Different color for selected button */
+}
+.status-button {
+  display: inline-block;
+  padding: 2px 4px; /* Further reduced padding */
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px; /* Ensures button height is reduced */
+  vertical-align: middle;
+}
+
+.status-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+}
+
+.status-critical {
+  background-color: #dc3545;
+  color: white;
+  height: 20px;
+  width: 180px;
+}
+
+.status-warn-off {
+  background-color: #fd7e14;
+  color: white;
+  height: 20px;
+  width: 180px;
+}
+
+.status-normal {
+  background-color: #7ee296;
+  color: black;
+  height: 20px;
+  width: 180px;
+}
+
+.condition-table {
+  width: 150%; /* Make the table wider */
+  max-width: 1200px; /* Set a max width */
+  margin: 20px auto; /* Center the table horizontally and add vertical margin */
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.condition-table th,
+.condition-table td {
+  padding: 12px 1px;
+  text-align: center;
+  vertical-align: middle; /* Ensure content is centered vertically */
+}
+
+.condition-table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+.condition-table thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.condition-table tbody tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.condition-table tbody tr:nth-of-type(even) {
+  background-color: #f8f9fa;
+}
+
+.appoint-technician-button {
+  padding: 2px 6px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.appoint-technician-button:hover {
+  background-color: #0056b3;
+}

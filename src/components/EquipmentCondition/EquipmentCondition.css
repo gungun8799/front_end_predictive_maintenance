@@ -1,0 +1,66 @@
+.container-EC {
+  display: flex;
+  justify-content: flex-end; /* Move the card to the right */
+  padding-right: 10px; /* Adjust the padding as needed */
+  margin-left: 30px;
+}
+
+.equipment-condition {
+  background: white;
+  height: 386px; /* Adjusted height */
+  width: 400px; /* Adjusted width */
+  padding: 20px; /* Reduced padding */
+  padding-right: 1px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.equipment-condition h3 {
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.equipment-condition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.equipment-condition th, .equipment-condition td {
+  padding: 8px; /* Reduced padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.equipment-condition th {
+  background-color: #f9f9f9;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.status, .condition {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin: 0 5px; /* Added margin for better spacing */
+}
+
+.status-running {
+  background-color: #c1e0c1; /* Light green */
+  color: black;
+}
+
+.attention-required {
+  background-color: #f79555; /* Dark orange */
+  color: white;
+}
+
+.normal {
+  background-color: #98fb98; /* Light green */
+  color: black;
+}

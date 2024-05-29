@@ -1,0 +1,105 @@
+.static-matrix-SM {
+  background: white;
+  padding: 10px; /* Reduced padding */
+  margin-left: -10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 406.5px; /* Adjusted height */
+  width: 500px;
+  position: relative;
+}
+
+.matrix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+.matrix-heading {
+  font-size: 16px; /* Reduced font size */
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-container-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px; /* Reduced font size */
+  gap: 10px; /* Adjust spacing between elements */
+  max-width: 350px; /* Set a max-width to make the bar shorter horizontally */
+  margin: 0 auto 10px; /* Center the filter bar */
+}
+
+.filter-container-2 label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px; /* Reduced font size */
+  color: #333;
+}
+
+.filter-container-2 input {
+  font-size: 12px; /* Reduced font size */
+  max-width: 120px; /* Set a max-width for input fields to reduce their width */
+}
+
+.recent-update {
+  display: flex;
+  align-items: center;
+  font-size: 12px; /* Reduced font size */
+  color: #666;
+}
+
+.recent-update-indicator {
+  width: 10px; /* Reduced size */
+  height: 10px; /* Reduced size */
+  background-color: #e6e6fa;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px; /* Reduced margin */
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 8px; /* Reduced padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.matrix-table th {
+  background-color: #f9f9f9;
+}
+
+.matrix-table td {
+  background-color: white;
+}
+
+.highlight-button {
+  display: inline-block;
+  padding: 5px 8px; /* Reduced padding */
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.highlight-purple {
+  background-color: #e6e6fa;
+}
+
+.highlight-grey {
+  background-color: #f0f0f0;
+}
+
+.dropdown-container-sm {
+  align-items: center;
+  margin-left:170px;
+  color: #a0a0a0;
+}

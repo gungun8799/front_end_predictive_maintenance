@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
+import Dashboard from './components/Dashboard/Dashboard';
+import EquipmentCondition from './components/EquipmentCondition/EquipmentCondition';
+import EquipmentConditionDetail from './components/EquipmentConditionDetail/EquipmentConditionDetail';
+import RealTimeUpdate from './components/RealTimeUpdate/RealTimeUpdate';
+import OperatingEnvironment from './components/OperatingEnvironment/OperatingEnvironment';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Sidebar />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/equipment-condition" element={<EquipmentCondition />} />
+            <Route path="/RealTimeUpdate" element={<RealTimeUpdate />} />
+            <Route path="/EquipmentConditionDetail" element={<EquipmentConditionDetail />} />
+            <Route path="/OperatingEnvironment" element={<OperatingEnvironment />} />
+
+           </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,70 @@
+.real-time-update {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row; /* Changed to row for horizontal alignment */
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px; /* You can adjust this value */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  margin-left: 220px; /* Space for the fixed filter bar */
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensure exactly 3 cards per row */
+  gap: 20px; /* Equal gap for both horizontal and vertical spaces */
+  margin-top: 20px;
+  justify-items: center; /* Center items in the grid */
+}
+
+.filter-container-RTU {
+  background: rgb(220, 220, 220);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Fixed width for vertical filter bar */
+  position: fixed; /* Lock to the left of the screen */
+  top: 127px; /* Adjust as needed */
+  left: 270px; /* Adjust as needed */
+}
+
+.filter-container-RTU h3 {
+  margin-bottom: 20px;
+}
+
+.filter-container-RTU ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Vertical layout */
+  gap: 10px;
+}
+
+.filter-container-RTU li {
+  display: flex;
+  align-items: center;
+}
+
+.filter-container-RTU button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-container-RTU button:hover {
+  background-color: #0056b3;
+}
+
+.filter-container-RTU button.active {
+  background-color: #004080;
+}

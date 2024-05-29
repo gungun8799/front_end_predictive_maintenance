@@ -1,0 +1,58 @@
+.card {
+  background: white;
+  width: 20vw; /* Adjusted width */
+  height: auto; /* Adjusted height to auto to accommodate all text */
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-header {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-header.status-0 {
+  background-color: #aea5ff; /* Green */
+}
+
+.card-header.status-1 {
+  background-color: #aea5ff; /* Orange */
+}
+
+.card-header.status-2 {
+  background-color: #aea5ff; /* Red */
+}
+
+.card-header.status-3 {
+  background-color: #aea5ff; /* Purple */
+}
+
+.card-header.status-4 {
+  background-color: #aea5ff; /* Blue */
+}
+
+.card-body {
+  text-align: left; /* Align text to the left */
+}
+
+.card-body h3 {
+  margin: 10px 0; /* Adjusted margin */
+  font-size: 18px; /* Adjusted font size */
+}
+
+.card-body p {
+  margin: 5px 0; /* Added margin for paragraphs */
+  font-size: 14px; /* Adjusted font size for paragraphs */
+}
+
+.data-label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #d3d3d3; /* Grey color */
+  border-radius: 5px;
+}

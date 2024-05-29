@@ -1,0 +1,30 @@
+.dashboard {
+  padding: 10px;
+  flex-grow: 1;
+  max-width: 500px; /* Set a maximum width for the dashboard */
+  margin: 0 auto; /* Center the dashboard */
+}
+
+.dashboard-header {
+  margin-bottom: 10px;
+  margin-top: -20px;
+  width: 100%; /* Make sure the header takes the full width */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.dashboard-header h2 {
+  text-align: center; /* Center the header text */
+  font-size: 28px;
+}
+
+
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns to fit within the max-width */
+  grid-gap: 20px;
+  justify-content: center; /* Center the grid content */
+  margin-right: 10px;
+}
